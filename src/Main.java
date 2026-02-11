@@ -6,6 +6,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean running = true;
 
+        myLibrary.addBook(new Book("Clean Code", "Robert Martin"));
+        myLibrary.addBook(new Book("Java Basics", "German Author"));
+
         System.out.println("Welcome to the Library Management System");
 
         while (running) {
